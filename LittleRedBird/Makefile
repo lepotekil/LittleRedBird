@@ -4,7 +4,7 @@ LDFLAGS=/link Advapi32.lib User32.lib
 SRC_DIR=src
 INCLUDES_DIR=includes
 OUTPUT_DIR=output
-TARGET=$(OUTPUT_DIR)/azsymbiote.exe
+TARGET=$(OUTPUT_DIR)/littleredbird.exe
 SOURCES=$(SRC_DIR)/main.c $(SRC_DIR)/utils.c
 
 all: $(OUTPUT_DIR) $(TARGET)
