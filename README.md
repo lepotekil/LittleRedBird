@@ -1,4 +1,4 @@
-# Little Red Bird - README
+# LittleRedBird
 
 ## Introduction
 
