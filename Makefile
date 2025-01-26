@@ -1,9 +1,11 @@
-CC=cl
-CFLAGS=/nologo /DNDEBUG /Ox /MT /W4 /GS- /Iincludes
-LDFLAGS=/link Advapi32.lib User32.lib
-OUTPUT_DIR=output
-TARGET=$(OUTPUT_DIR)\littleredbird.exe
-SOURCE=main.c
+CC = cl
+CFLAGS = /nologo /DNDEBUG /D_CRT_SECURE_NO_WARNINGS /Ox /MT /W4 /EHsc /Iincludes
+
+LDFLAGS = /link Advapi32.lib User32.lib
+
+OUTPUT_DIR = output
+TARGET = $(OUTPUT_DIR)\littleredbird.exe
+SOURCE = main.c
 
 all: $(OUTPUT_DIR) $(TARGET)
 
